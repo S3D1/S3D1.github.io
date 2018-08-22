@@ -91,3 +91,7 @@ video {
   height: 70px;
   vertical-align: middle;
 }
+
+div {
+  text-align= "center"
+}
