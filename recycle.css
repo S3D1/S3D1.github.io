@@ -1,0 +1,96 @@
+
+
+Body{
+
+  mrgin:auto;
+  padding:20px;
+  text-align:center;
+
+  p.serif {
+      font-family: "Times New Roman", Times, serif;
+  }
+}
+
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  margin-bottom: 16px;
+  padding: 0 6px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #323232;
+}
+
+
+}
+</style>
+
+
+/* Set height of body and the document to 100% */
+
+
+/* Style tab links */
+.tablink {
+    background-color: #1B5583;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color:#black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+
+video {
+  object-fit: fill;
+}
+
+#logo {
+  height: 70px;
+  vertical-align: middle;
+}
