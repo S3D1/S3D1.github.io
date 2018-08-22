@@ -1,11 +1,8 @@
-
-
 Body{
 
   mrgin:auto;
   padding:20px;
   text-align:center;
-
   p.serif {
       font-family: "Times New Roman", Times, serif;
   }
